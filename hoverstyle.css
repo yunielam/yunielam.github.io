@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background-color: lightblue;
+}
+nav a {
+    color: mediumaquamarine;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+
+}
+nav {
+    background-color: lightskyblue;
+}
+main {
+    background-color: lightpink;
+}
+footer {
+    background-color: lightslategray;
+}
+footer:hover {
+    background-color: lightslategray;
+    font-size: 2em;
+}
+#dsmall {
+    display: inline;
+    width: 100%;
+}
+#dlong {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        background-color: magenta;
+    }
+}
+@media screen and (min-width: 800px) {
+    header {
+        background-color: rgb(48, 15, 235);
+        color: white;
+    }
+}
