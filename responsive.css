@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#shorts {
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    #wides {
+        display: none;
+    }
+    #shorts {
+        display: inline;
+    }
+}
