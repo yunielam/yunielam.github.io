@@ -5,17 +5,13 @@
     <!--Metada character set = Unicode Transformation Format-->
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
-
     <title>Doraemon Wikipage Redesign</title>
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
-    <style>
-        body {
-            font-family: 'Raleway', sans-serif;
-            background-color: #F2E8E4;
-            color: rosybrown;
-        }
+    <style> 
+      
         nav {
             background-color: lightpink;
             color: rosybrown;
@@ -43,10 +39,7 @@
             color: #8090A6;
             background-color: #C5D0D9;
         }
-        #plot {
-            color: #64718C;
-            background-color: #C5D0D9;
-        }
+       
         #me {
             color: #64718C;
             background-color: #C5D0D9;
@@ -82,9 +75,15 @@
     <hr>
     </header>
     <nav>
+        <div>
         <h2>Menu</h2>
-        <a href="listreview.html">List Review</a>
-        <a href="example.html">Example HTML</a>
+        </div>
+        <div>
+        <a href="https://en.wikipedia.org/wiki/Doraemon_(2005_TV_series)#:~:text=Doraemon%20(%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%2C%20Doraemon)%20is,in%20over%2050%20countries%20worldwide.">TV series</a>
+        </div>
+        <div>
+        <a href="https://doraemon.fandom.com/wiki/List_of_Doraemon_Manga_(Volumes_and_Chapters)#:~:text=Doraemon%20(%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93)%20is%20a%20Japanese,series%20and%20an%20Asian%20franchise.&text=The%20volumes%20are%20collected%20in,both%20Fujiko%20Fujio%20were%20born.">Manga series</a>
+        </div>
     </nav>
    
 
@@ -104,17 +103,34 @@
     <p>
         Doraemon (Japanese: ドラえもん Japanese pronunciation: [do̞ɾa̠e̞mõ̞ɴ]) is a Japanese <a href="https://en.wikipedia.org/wiki/Manga">manga</a> series written and illustrated by <a href="https://en.wikipedia.org/wiki/Fujiko_Fujio">Fujiko Fujio,</a> the pen name of the duo Hiroshi Fujimoto and Motoo Abiko. The series has also been adapted into a successful <a href= "https://en.wikipedia.org/wiki/Anime">anime</a> <a href="https://en.wikipedia.org/wiki/Lists_of_Doraemon_episodes">series</a> and <a href="https://en.wikipedia.org/wiki/Multimedia_franchise">media franchise</a>. The story revolves around an earless robotic cat named Doraemon, who travels back in time from the 22nd century to aid a boy named <a href="https://en.wikipedia.org/wiki/List_of_Doraemon_characters#Main_characters">Nobita Nobi</a> (野比のび太, Nobi Nobita).
     </p>
-    <h2>Contents</h2>
-    <ol><!--ordered list-->
-        <li id="co" class="classContents">Plot</li>
-        <li id="co" class="classContents">Media
-            <ol>
-                <li id="co" class="classContents">Manga</li>
-                <li id="co" class="classContents">Anime</li>
-                
-            </ol>
-        <li id="co" class="classContents">Legacy</li>
-    </ol>
+    <nav id="contentNav">
+        <h2>Contents</h2>
+        <ol><!--ordered list-->
+            <li><a id= #plo href="https://en.wikipedia.org/wiki/Doraemon#Plot">Plot</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Doraemon#Media">Media</a>
+                <ol>
+                    <li><a href="https://en.wikipedia.org/wiki/Doraemon#Manga">Manga</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Doraemon#Anime">Anime</a></li>
+                    
+                </ol>
+            <li><a href="https://en.wikipedia.org/wiki/Doraemon#Legacy">Legacy</a></li>
+        </ol>
+        </nav>
+    <article>
+        <div id="flex1">
+            <h1><a href="https://en.wikipedia.org/wiki/Doraemon#Video_games">Doraemon 1</a></h1>
+            <img src="https://i.pinimg.com/564x/2b/89/20/2b89205362fe42af6f6c544d9b255370.jpg" alt="doraemon1">
+        </div>
+
+        <div id="flex2">
+            <h1><a href="https://en.wikipedia.org/wiki/Doraemon#Musical">Doraemon 2</a></h1>
+            <img src="https://i.pinimg.com/564x/fa/d4/ac/fad4ac90c3cb588a4fdff8b24f6dc4d0.jpg" alt="drm and friends">
+        </div>
+        <div id="flex3">
+            <h1><a href="https://en.wikipedia.org/wiki/Doraemon#Merchandise">Doraemon 3</a></h1>
+            <img src="https://i.pinimg.com/564x/35/3d/d9/353dd97ef1bbb6d4ce6cd78020271e62.jpg" alt="doraemon with dorayaki">
+        </div>
+    </article>
     <h2>References</h2>
     <ul>
         <li> "Fujiko F. Fujio Museum". Japan Reference. Archived from the original on 2012-09-19. Retrieved September 11, 2012.</li>
