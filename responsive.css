@@ -8,7 +8,6 @@ body {
     background-color: #F2E8E4;
     color: rosybrown;
 }
-
 article {
     display: flex;
     flex-direction: row;
@@ -16,62 +15,128 @@ article {
 }
 article img {
     width: 100px;
-    
 }
 article img: hover {
     width: 120px;
     margin-bottom: 20px;
-    rotate: 15deg;
 }
 article a {
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     sans-serif;
-    background-color: pink;
+    background-color: #887099;
     color: white;
     padding-left: 10%;
     padding-right: 10%;
-    font-kerning: inherit;
+    
 }
 article a:hover {
     background-color: peru;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    rotate: 30deg;
 }
 nav a {
     color: lightpink
 }
-#flex1 a {
-    color: darkkhaki;
+nav a:hover {
+    background-color: wheat;
+    letter-spacing: 5px;
 }
-#flex2 a {
-    color: darkolivegreen;
+#bottombutton {
+    
+    width: 150px;
+    
+    margin: 10px;
 }
-#flex3 a {
-    color: beige
+#topbutton {
+    
+    width: 150px;
+    
+    margin: 10px;
 }
-
-
 nav {
-    background-color: grey;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-style: solid;
     border-width: 4px;
-    padding: 40px;
+    padding: 50px;
     margin: 40px;
-    box-sizing: border-box;
-
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://wallpaperaccess.com/full/2319696.jpg");
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    text-align: left;
+    background-size: 100%;
+}
+aside {
+    background-color: #F2DCDC;
+    width: 500px;
+    margin: 30px;
+    padding: 30px;
+    border-style: solid;
 }
 nav div {
+    width: 150px;
     margin: 10px;
-    background-color: darkcyan;
+    background-color:darkcyan;
     padding: 5px;
 }
-@media screen and (max-width: 600px){
-    #wides {
-        display: none;
-    }
-    #shorts {
-        display: inline;
-    }
+
+h1 {
+    color: #CC8884;
+}
+h2 {
+    color: #BF7892 ;
+    line-height: 30pt;
+    
+}
+
+header {
+    background-color:#F2D0D0;
+    color: #CC8884;
+}
+
+#ha {
+    color: #8090A6;
+    background-color: #C5D0D9;
+}
+#plot {
+    color: #BF7892;
+    line-height: 30pt;
+}
+table {
+    background-color: #9580a3;
+    color: rgb(240, 228, 159);
+    width: 500px;
+    border-style: dotted;
+    margin: 20px;
+}
+
+#an {
+    color: #887099;
+    line-height: 25pt;
+}
+
+#ma {
+    color: #887099;
+    line-height: 20pt;
+}
+
+#co {
+    color:#8090A6;
+}
+a {
+    color: #887099;
+    text-decoration:none;
+}
+p {
+    text-indent: 30px;
+}
+img {
+    width: 50vh;
+}
+form {
+    background-color: #F2DCDC;
+    width: 500px;
 }
