@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-image: url(background-01.jpg);
+  color: #368285;
+  background-size: 100%;
+}
+header div img {
+  width: 300px;
+}
+
+.bg-img {
+    background-image: url("banner2-01.jpg");
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    margin-left: 850px;
+    width: auto;
+    float: right;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  main img {
+    width: 700px;
+}
+main {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+nav a {
+  color: #368285;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: pink;
+  letter-spacing: 5px;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+article img {
+  width: 350px;
+  
+}
+
+.painting {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+#portfolio {
+    color: rgb(72, 129, 131);
+    width: 1200px;
+  
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+
+}
+#po1 {
+ 
+  width: 100%;
+  margin-bottom: 20px;
+}
+.about {
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+#aboutcontent {
+  width: 500px;
+  font-size: 18px;
+  margin-top: 80px;
+  text-align: justify;
+}
+#about1 {
+  
+  color: cadetblue;
+  width: 400px;
+  height: 200px;
+  margin: 50px;
+  text-align: right;
+  font-size: 30px;
+} 
+
+
+#contact{
+
+  color: cadetblue;
+  width: 500px;
+  height: 100px;
+  margin-left: 250px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+} 
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(63, 201, 206);
+    font-size: 1em;
+    text-align: center;
+  
+    width: 100%;
+    padding: 10px;
+
+  }
+  footer a {
+    text-decoration: none;
+    color: rgb(126, 84, 35);
+
+  }
+  footer a:hover {
+    color: burlywood;
+  }
+  form {
+    background-color: #F2DCDC;
+    width: 500px;
+    margin-left: 400px;
+    text-align: center;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}

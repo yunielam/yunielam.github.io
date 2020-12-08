@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-image: url(backgroundportfolio.jpg);
+}
+.bg-img {
+    background-image: url("portfoliobanner-01-01.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .container {
+    position: absolute;
+    margin: 20px;
+    margin-left: 850px;
+    width: auto;
+    float: right;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: rgb(177, 126, 126);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(245, 202, 202);
+    color: white;
+  }
+  article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  article img {
+    width: 350px;
+    
+  }
+  nav {
+      text-align: center;
+      font-size: 40px;
+      margin-top: 40px;
+      font-family: 'Sacramento', cursive;
+      font-size: 2em;
+
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .zoom {
+
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
